@@ -12,6 +12,7 @@ make defconfig
 ``` bash
 ./scripts/diffconfig.sh
 ```
+获取.config配置
 
 # Actions-OpenWrt
 
