@@ -1,5 +1,18 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+执行
+``` bash
+cd openwrt && make menuconfig
+```
+选好要编译的插件，保存后不要退出ssh，执行
+``` bash
+make defconfig
+```
+再执行
+``` bash
+./scripts/diffconfig.sh
+```
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
